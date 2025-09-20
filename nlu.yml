@@ -1,0 +1,21 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - سلام
+    - درود
+    - سلام خوبی؟
+    - هی
+
+- intent: goodbye
+  examples: |
+    - خداحافظ
+    - مرسی، فعلاً
+    - بای
+
+- intent: ask_contract
+  examples: |
+    - میخوام قرارداد شماره [۲۹۸](contract_number) رو ثبت کنم
+    - یه قرارداد با شماره [۱۵۰](contract_number) دارم
+    - قرارداد [۴۲۰](contract_number) رو چک کن

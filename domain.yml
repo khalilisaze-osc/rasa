@@ -1,0 +1,21 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - ask_contract
+
+entities:
+  - contract_number
+
+responses:
+  utter_greet:
+    - text: "سلام! در خدمتم 🌹"
+  utter_goodbye:
+    - text: "خداحافظ! موفق باشی."
+  utter_ask_contract:
+    - text: "شماره قرارداد رو بگو لطفاً."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
